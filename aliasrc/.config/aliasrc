@@ -1,0 +1,17 @@
+# typical aliases
+alias \
+  cal="ncal -b -A 2" \
+	vi="nvim" \
+	vim="nvim" \
+	vimdiff="nvim -d" \
+	ls="ls --color=auto" \
+	ll="ls -al" \
+	ltr="ls -ltr"
+	ks="ls" \
+	du="du -h" \
+	df="df -h" \
+	cp="cp -i" \
+	c="clear" \
+	..="cd .." \
+	...="cd ../../" \
+
