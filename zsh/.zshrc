@@ -10,7 +10,28 @@ source ~/Projects/powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/.config/aliasrc
 
+# file type aliases
+alias -s pdf=zathura
+alias -s xlsx=libreoffice
+alias -s xlsm=libreoffice
+alias -s tsv=libreoffice
+alias -s csv=libreoffice
+alias -s txt=vim
+alias -s json=vim
+alias -s log=vim
+alias -s html=firefox
+
 setopt autocd
+setopt sh_nullcmd # I do not know what this does
+
+# set up history
+setopt histignorealldups
+setopt sharehistory
+HISTSIZE=2000
+SAVEHIST=2000
+HISTFILE=~/.zsh_history
+
+zstyle ':completion:*' auto-description 'specify: %d'
 
 # speed up keyboard
 xset r rate 190 35
@@ -38,4 +59,4 @@ source ~/Projects/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # syntax highlighting (should be at end of zshrc, see Github repo:
 # https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-source ~/Projects/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source ~/Projects/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh 2> /dev/null
