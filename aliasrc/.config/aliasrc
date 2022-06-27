@@ -9,7 +9,7 @@ alias \
 	vimdiff="nvim -d" \
 	ls="ls --color=auto" \
 	ll="ls -al" \
-	ltr="ls -ltr"
+	ltr="ls -ltr" \
 	ks="ls" \
 	du="du -h" \
 	df="df -h" \
