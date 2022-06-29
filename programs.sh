@@ -25,6 +25,7 @@ sudo pacman -S exa
 sudo pacman -S ripgrep
 sudo pacman -S bat
 sudo pacman -S docker
+sudo pacman -S awesome
 # sudo pacman -S anki
 # sudo pacman -S fzf
 
