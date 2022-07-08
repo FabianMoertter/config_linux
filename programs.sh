@@ -26,8 +26,13 @@ sudo pacman -S ripgrep
 sudo pacman -S bat
 sudo pacman -S docker
 sudo pacman -S awesome
+sudo pacman -S julia
+sudo pacman -S tree
+sudo pacman -S lf
 # sudo pacman -S anki
 # sudo pacman -S fzf
+
+# virtualization
 
 # programs to install via npm
 sudo npm i -g pyright
