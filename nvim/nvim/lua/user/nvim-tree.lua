@@ -15,7 +15,7 @@ require("nvim-tree").setup({
   },
   disable_netrw = true,
   hijack_netrw = true,
-  open_on_setup = falsee,
+  open_on_setup = false,
 })
 
 

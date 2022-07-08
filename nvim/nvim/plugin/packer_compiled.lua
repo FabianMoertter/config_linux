@@ -145,6 +145,11 @@ _G.packer_plugins = {
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  neogit = {
+    loaded = true,
+    path = "/home/fabian/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/TimUntersberger/neogit"
+  },
   neovim = {
     loaded = true,
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/neovim",
@@ -160,6 +165,16 @@ _G.packer_plugins = {
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/fabian/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "/home/fabian/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -169,6 +184,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/fabian/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -195,6 +215,11 @@ _G.packer_plugins = {
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "/home/fabian/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
+  },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
@@ -214,6 +239,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/fabian/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-matchup"] = {
+    loaded = true,
+    path = "/home/fabian/.local/share/nvim/site/pack/packer/start/vim-matchup",
+    url = "https://github.com/andymass/vim-matchup"
+  },
+  ["vim-speeddating"] = {
+    loaded = true,
+    path = "/home/fabian/.local/share/nvim/site/pack/packer/start/vim-speeddating",
+    url = "https://github.com/tpope/vim-speeddating"
   },
   ["vim-surround"] = {
     loaded = true,

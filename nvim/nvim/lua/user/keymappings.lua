@@ -67,3 +67,6 @@ vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", opts)
 -- nvim-tree
 vim.api.nvim_set_keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
+-- Telescope
+vim.api.nvim_set_keymap("n", "<leader>f", ":Telescope find_files<cr>", opts)
+
